@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    min-height: 10vh;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+nav{
+    flex: 2;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+}
+
+.nothing{
+    flex: 1;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nothing img{
+    height: 6vh;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.presentation{
+    display: flex;
+    min-height: 80vh;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+
+.text-part{
+    flex: .7;
+}
+
+.text-part h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    background: linear-gradient(to right, #0f3443, #34e89e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.intro-text p{
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    background: linear-gradient(to right, #0f0c29, #302b63);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.button{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+    background-color: rgb(50, 171, 29);
+    color: whitesmoke;
+    height: 50px;
+    width: 190px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.image-part{
+    flex: 1;
+    text-align: center;
+}
+
+.image-part img{
+    height: 60vh;
+    border-radius: 25px;
+}
